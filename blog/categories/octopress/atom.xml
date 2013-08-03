@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: octopress | Music's Blog]]></title>
+  <title><![CDATA[Category: octopress | music]]></title>
   <link href="http://musicyy.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://musicyy.github.io/"/>
-  <updated>2013-08-03T20:10:00+08:00</updated>
+  <updated>2013-08-03T20:48:29+08:00</updated>
   <id>http://musicyy.github.io/</id>
   <author>
     <name><![CDATA[Music]]></name>
@@ -12,6 +12,57 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress主题集]]></title>
+    <link href="http://musicyy.github.io/blog/2013/08/03/octopresszhu-ti-ji/"/>
+    <updated>2013-08-03T20:16:00+08:00</updated>
+    <id>http://musicyy.github.io/blog/2013/08/03/octopresszhu-ti-ji</id>
+    <content type="html"><![CDATA[<hr />
+
+<p>这几天刚搭好Octopress，觉得太有意思了，一切的一切都可以自己定制，在写博客的同时给我们带来了折腾的乐趣。最近对Octopress主题非常感兴趣，查了查资料，如果有JavaScript和CSS基础的话，照着写一个应该易如反掌。可惜像我这样的技术渣，钻研JS和CSS又得浪费不少时间，所以索性就用别的写好的好了。</p>
+
+<hr />
+
+<h1>安装Octopress主题</h1>
+
+<p>Octopress的主题一般都是放在github上托管的，而且安装方法非常的简单。在Octopress的github上，推荐了一些主题，其中几个都挺不错的，可以看一看。</p>
+
+<pre><code>List of Octopress Themes
+https://github.com/imathis/octopress/wiki/List-Of-Octopress-Themes
+</code></pre>
+
+<p>以下是我用过的并且觉得不错的主题，也是很多人都在推荐的。</p>
+
+<!--more-->
+
+
+<h3>CleanPress</h3>
+
+<hr />
+
+<p>你所看到的这个博客当前使用的就是这个主题，个人感觉很清爽，省去了很多没有用的东西。</p>
+
+<h3>slash</h3>
+
+<hr />
+
+<p>很多人都强烈推荐的主题 <a href="http://zespia.tw/Octopress-Theme-Slash/">preview</a>
+<img src="http://ww1.sinaimg.cn/large/640cd187jw1e79r0tgxjjj213w0oegpz.jpg" alt="slash theme" /></p>
+
+<h3>object</h3>
+
+<hr />
+
+<p>我的上一个主题，也是极简风格，很有科技感 <a href="http://k.ernel.org/">preview</a></p>
+
+<h3>MrZhang.me</h3>
+
+<hr />
+
+<p>风格很有趣的一个主题，中国制造！ <a href="http://mrzhang.me/blog/blog-equals-github-plus-octopress.html">preview</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress折腾记]]></title>
