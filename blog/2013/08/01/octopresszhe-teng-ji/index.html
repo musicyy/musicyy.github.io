@@ -1,102 +1,102 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Octopress折腾记 - Music's Blog</title>
-  <meta name="author" content="Music">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Octopress折腾记  | Music's Blog</title>
 
-  
-  <meta name="description" content="前言 最近刚刚接触到Octopress，觉得非常有意思，借助Github平台免费的搭建自己的博客。选中它的原因还有就是它的口号“a blogging farmwork hackers”。虽然不至于是真的黑客专用，但是折腾起来也非常有意思。 安装 首先是安装Octopress， &hellip;">
-  
+<meta name="author" content="Music"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Do what you want to do 4ever."> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://musicyy.github.io/blog/2013/08/01/octopresszhe-teng-ji/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Music's Blog" type="application/atom+xml">
-  <!-- font-family: 'Knewave', cursive; -->
-<link href='http://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
-<!-- font-family: 'Cantata One', serif; -->
-<link href='http://fonts.googleapis.com/css?family=Cantata+One' rel='stylesheet' type='text/css'>
-<!-- font-family: 'Autour One', serif; -->
-<link href='http://fonts.googleapis.com/css?family=Autour+One' rel='stylesheet' type='text/css'>
-  
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+	<link href="/atom.xml" rel="alternate" title="Music's Blog" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1>
-      <a href="/">Music's Blog</a>
-      
-        <span>just blog it.</span>
-      
-  </h1>
-</hgroup>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Music's Blog</a></h1>
+<h4>just blog it.</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:musicyy.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:musicyy.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Home</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/about">About Me</a></li>
-</ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article class="hentry" role="article">
-  
-  <header>
-    
-      <h1 class="entry-title">Octopress折腾记</h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-08-01T21:20:00+08:00" pubdate data-updated="true">Aug 1<span>st</span>, 2013</time>
-        
-        
-      </p>
-    
-  </header>
-
-
-<div class="entry-content"><hr />
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Octopress折腾记</h2>
+	<div class="entry-content"><hr />
 
 <h1>前言</h1>
 
@@ -137,14 +137,8 @@
 </div>
 
 
-  <footer>
-    <p class="meta">
-      
-  
-
-<span class="byline author vcard">Posted by <span class="fn">music</span></span>
-
-      
+<div class="meta">
+	<div class="date">
 
 
 
@@ -156,82 +150,50 @@
   
 
 
-<time datetime="2013-08-01T21:20:00+08:00" pubdate data-updated="true">Aug 1<span>st</span>, 2013</time>
-      
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/octopress/'>octopress</a>
-  
-</span>
+<time datetime="2013-08-01T21:20:00+08:00" pubdate data-updated="true">Aug 1<span>st</span>, 2013</time></div>
+	<div class="tags">
 
 
-    </p>
-    
-      <div class="sharing">
-  
-  
-  
+	<a class='category' href='/blog/categories/octopress/'>octopress</a>
+
+
+</div>
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> --->
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
 </div>
 
-    
-    <p class="meta">
-      
-      
-    </p>
-  </footer>
-</article>
 
-  <section>
-    <h1>Comments</h1>
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
     <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-  </section>
-
+</section>
 </div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
 
-<aside class="sidebar">
-  
-    <section class="first odd">
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2013/08/01/octopresszhe-teng-ji/">Octopress折腾记</a>
-      </li>
-    
-  </ul>
-</section>
+    Music
 
-<section class="odd">
-  <h1>On Delicious</h1>
-  <div id="delicious"></div>
-  <script type="text/javascript" src="http://feeds.delicious.com/v2/json/musicyy?count=3&amp;sort=date&amp;callback=renderDeliciousLinks"></script>
-  <p><a href="http://delicious.com/musicyy">My Delicious Bookmarks &raquo;</a></p>
-</section>
-
-
-  
-</aside>
-
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Music -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-<script type="text/javascript">
-$(document).ready(function() {
-  $(".fancybox").fancybox({
-    openEffect  : 'none',
-    closeEffect : 'none'
-  });
-});
-</script>
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
 
 <script type="text/javascript">
       var disqus_shortname = 'musicyyblog';
@@ -248,12 +210,6 @@ $(document).ready(function() {
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
-
-
-
-
-
-
 
 
 
